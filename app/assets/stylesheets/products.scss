@@ -51,6 +51,20 @@ main section.categories-show {
         font-size: 0.8em;
       }
 
+      aside.sold-out{
+        position: absolute;
+        top: 0;
+        left: 0;
+        color:white;
+        font-weight: bolder;
+        padding:10px 10px 1px;
+        border-top-left-radius: 4px;
+        line-height:-3px;
+        border-bottom-right-radius: 20px;
+        font-size: 0.8em;
+        background-color:rgb(222,153,152);
+      }
+
       &:hover {
 
         border-color: #999;
