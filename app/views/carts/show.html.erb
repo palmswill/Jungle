@@ -5,6 +5,12 @@
   </header>
 
   <div class="panel panel-default items">
+  <% if enhanced_cart %>
+  <h1 class="text-center alert alert-warning">You Do Not Have Any Item In Carts!</h1>
+  <h3 class="text-center" style="margin-inline:auto; width:50%"><a href="/">back to main page<a/></div>
+
+  <% end %>
+  <% if !enhanced_cart %>
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -30,6 +36,7 @@
         </tr>
       </tfoot>
     </table>
+
   </div>
 
   <div class="row">
@@ -48,5 +55,6 @@
       <% end %>
     </div>
   </div>
+  <% end %>
 
 </section>
